@@ -230,8 +230,8 @@ GameObject:
   - component: {fileID: 333701675}
   - component: {fileID: 333701674}
   - component: {fileID: 333701673}
-  - component: {fileID: 333701672}
   - component: {fileID: 333701671}
+  - component: {fileID: 333701672}
   m_Layer: 0
   m_Name: Bird
   m_TagString: Untagged
@@ -274,7 +274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlySpeed: 4
   score: 0
-  rb: {fileID: 0}
+  rigidBody2d: {fileID: 333701671}
   scoreTxt: {fileID: 1224797264}
   GameOverTxt: {fileID: 1585262938}
 --- !u!58 &333701673
@@ -757,6 +757,11 @@ PrefabInstance:
       propertyPath: originX
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 5214015471285923371, guid: ba16d112d0363f048a51a99d3a560b9f,
+        type: 3}
+      propertyPath: PipeMoveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5214015471285923373, guid: ba16d112d0363f048a51a99d3a560b9f,
         type: 3}
       propertyPath: m_Name
@@ -909,6 +914,11 @@ PrefabInstance:
         type: 3}
       propertyPath: originX
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214015471285923371, guid: ba16d112d0363f048a51a99d3a560b9f,
+        type: 3}
+      propertyPath: PipeMoveSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5214015471285923373, guid: ba16d112d0363f048a51a99d3a560b9f,
         type: 3}
@@ -1127,6 +1137,11 @@ PrefabInstance:
       propertyPath: originX
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 5214015471285923371, guid: ba16d112d0363f048a51a99d3a560b9f,
+        type: 3}
+      propertyPath: PipeMoveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5214015471285923373, guid: ba16d112d0363f048a51a99d3a560b9f,
         type: 3}
       propertyPath: m_Name
@@ -1342,6 +1357,11 @@ PrefabInstance:
       propertyPath: originX
       value: 11
       objectReference: {fileID: 0}
+    - target: {fileID: 5214015471285923371, guid: ba16d112d0363f048a51a99d3a560b9f,
+        type: 3}
+      propertyPath: PipeMoveSpeed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5214015471285923373, guid: ba16d112d0363f048a51a99d3a560b9f,
         type: 3}
       propertyPath: m_Name
@@ -1516,6 +1536,11 @@ PrefabInstance:
         type: 3}
       propertyPath: originX
       value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214015471285923371, guid: ba16d112d0363f048a51a99d3a560b9f,
+        type: 3}
+      propertyPath: PipeMoveSpeed
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5214015471285923373, guid: ba16d112d0363f048a51a99d3a560b9f,
         type: 3}
